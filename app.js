@@ -62,7 +62,24 @@ Beat 3 — reveal the product and demonstrate [USE CASE]
 Beat 4 — show proof or a believable before / after
 Beat 5 — finish with [CTA]
 
-Use natural camera movement, subtle hand shake, believable timing, realistic background audio, and imperfect iPhone-style lighting. Keep the product identity consistent in every shot.`}];
+Use natural camera movement, subtle hand shake, believable timing, realistic background audio, and imperfect iPhone-style lighting. Keep the product identity consistent in every shot.`},{name:'Winning Ad Hunter',category:'Ad research',text:`You are a performance creative researcher. Find the strongest active ads for [BRAND / NICHE] across the available ad libraries and public creative sources.
+
+Rank the top 10 ads by:
+1. Hook strength in the first 3 seconds
+2. Specificity of the pain point
+3. Proof, demonstration, or social proof
+4. Offer and CTA clarity
+5. Creative pattern that can be adapted without copying
+
+For each winner, return: brand, platform, ad format, opening hook, audience, core angle, proof mechanism, visual structure, CTA, likely reason it works, and a 1–10 score.
+
+Then produce:
+- The 3 repeated patterns across the winners
+- 5 original counter-angles for [CLIENT BRAND]
+- 3 hook variations for each counter-angle
+- A shot list and A/B test recommendation for the strongest concept
+
+Separate observed evidence from inference. Do not copy competitor scripts, claims, or distinctive creative. If live ad-library data is unavailable, say so clearly and work only from the examples provided.`}];
 const seedNiches=[{name:'Creator productivity',description:'Systems, tools, and routines for making content consistently.',status:'active',accounts:2,updated:'Today'},{name:'Visual storytelling',description:'Practical frameworks for making ordinary moments memorable.',status:'active',accounts:1,updated:'Yesterday'},{name:'Behind the scenes',description:'The real process behind running a creative studio.',status:'idea',accounts:1,updated:'Jul 28'},{name:'Personal finance',description:'Simple money lessons for independent creators.',status:'idea',accounts:1,updated:'Jul 24'},{name:'Gaming news',description:'Fast takes on the latest releases and industry shifts.',status:'deprecated',accounts:0,updated:'Jul 10'}];
 const accountIdeas=[
  {name:'Cleaning dental niche',description:'Cleaning and dental care content.',status:'idea'},
